@@ -41,7 +41,7 @@ public class giteclipse {
 		}
 		while (true);
 		
-		
+	System.out.println("Arvasit " + arvaustenMaara + " kertaa");
 }
 }
 			
