@@ -12,21 +12,55 @@ public class giteclipse {
 		int arvaustenMaara = 0;
 		
 		System.out.println("Arvaa nimi?");
-	
-	
-	
+	do 	
+		{
 		
 		vastaus = in.nextLine();
-
-		if(vastaus.equals("Heidi"))
+		arvaustenMaara++;
+		if(vastaus.equals(oikeaNimi))
 			
 		{
-			System.out.println("Peli loppui!");
+			System.out.println("Arvasit oikein.Peli loppui!");
+			break;
+		}
 		
-	}
+		else if (vastaus.equals("loppu"))
+		
+		{ 
+			System.out.println("Peli loppui!");
+			break;
+		}
+		
+		else
+			
+		{
+			System.out.println("Arvasti väärin, yritä uudestaan!");
+			
+		}
 		
 		}
-	
+		while (true);
+		
+		
 }
+}
+			
+
+
+
+
+		
+		
+	
+
+
+		
+	
+
+
+
+
+	
+
 		
 
