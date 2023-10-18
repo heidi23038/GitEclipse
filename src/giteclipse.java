@@ -34,7 +34,7 @@ public class giteclipse {
 		else
 			
 		{
-			System.out.println("Arvasti väärin, yritä uudestaan!");
+			System.out.println("Arvasit väärin, yritä uudestaan!");
 			
 		}
 		
